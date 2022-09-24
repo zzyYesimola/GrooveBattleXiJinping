@@ -1,23 +1,23 @@
 var dynatxt = document.getElementById("dynamic_text")
-function a() {
-	setTimeout("b()",500,)
+function aa() {
+	setTimeout("ba()",500,)
 	dynatxt.style = "color:#FF0000"
 }
-function b() {
-	setTimeout("c()",500,)
+function ba() {
+	setTimeout("ca()",500,)
 	dynatxt.style = "color:#00FF00"
 }
-function c() {
-	setTimeout("d()",500,)
+function ca() {
+	setTimeout("da()",500,)
 	dynatxt.style = "color:#0000FF"
 }
-function d() {
-	setTimeout("e()",500,)
+function da() {
+	setTimeout("ea()",500,)
 	dynatxt.style = "color:#AFAF00"
 }
-function e() {
-	setTimeout("a()",500,)
+function ea() {
+	setTimeout("aa()",500,)
 	dynatxt.style = "color:#00FFFF"
 }
 
-a()
+aa()
